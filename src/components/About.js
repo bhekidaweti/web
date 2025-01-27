@@ -14,6 +14,7 @@ export default function About() {
                         <li><i class="fa-solid fa-check"></i> we also sell tombstones and et</li>
                     </ul>
                 <p>Explore our affordable and high-quality tombstones, headstones and grave maintenance package </p>
+            <h3>We pride ourself in ensuring that your faithfully departed souls have a beautiful and dignified resting place. With that being said; no grave is unfixable.</h3>
             </section>
         </div>
     );
