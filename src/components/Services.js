@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import services from '../data/services';
 
 
@@ -14,7 +15,7 @@ export default function Services() {
                                     src={service.img}
                                     alt={service.name}
                                     className="mb-3 img-fluid"
-                                    style={{ maxWidth: "80px" }}
+                                    style={{ maxWidth: "400px" }}
                                 />
                                 <h3 className="card-title">{service.name}</h3>
                                 <p></p>
@@ -24,6 +25,7 @@ export default function Services() {
                     </div>
                 ))}
             </div>
+            <button className='btn btn-warning'><Link to='/other-services'>Other Services</Link></button>
         </div>
     );
 }

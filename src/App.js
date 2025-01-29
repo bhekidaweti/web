@@ -8,6 +8,10 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
 import Services from './components/Services';
+import Testimonials from './components/Testimonials';
+import OtherServices from './components/OtherServices';
+import CustomizedGraves from './components/CustomizedGraves';
+import TheTeam from './components/TheTeam';
 
 
 function App() {
@@ -22,7 +26,11 @@ function App() {
               <Route path='/' element={ < Home /> } />             
               <Route path='contact' element={< Contact />} />             
               <Route path='about' element={< About />} />         
-              <Route path='services' element={< Services />} />                      
+              <Route path='services' element={< Services />} />     
+              <Route path='testimonials' element={< Testimonials />} /> 
+              <Route path='other-services' element={ < OtherServices /> } />             
+              <Route path='customized-graves' element={ < CustomizedGraves /> } /> 
+              <Route path='the-team' element={ < TheTeam /> } />    
             </Routes>  
       <Footer />
     </div>

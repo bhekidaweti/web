@@ -16,8 +16,8 @@ const Home = () => {
                         alt="Grave Services" 
                     />
                     <div className="text-overlay">
-                        Digwamaje Grave Services 
-                        Restoration for the Departed
+                        <p style={{color: "goldenrod"}}>Digwamaje Grave Services</p>
+                        <p>Restoration for the Departed</p>
                     </div>
                 </div>
             </section>    

@@ -19,7 +19,7 @@ export default function Map() {
         <MapContainer
             center={[-26.22174585541148, 27.696903575374982]} // Coordinates of the map's center
             zoom={13} // Initial zoom level
-            style={{ height: "400px", width: "100%" }} // Map size
+            style={{ height: "100px", width: "100%" }} // Map size
         >
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" // Map tile source
