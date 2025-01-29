@@ -22,6 +22,9 @@ const TheTeam = () => {
                 <div className="col-md-6">
                     <img src="/images/the-team-1.jpeg" alt="Our Team" className="img-fluid rounded" style={{height: "450px"}}/>
                 </div>
+                <div className="col-md-6">
+                    <img src="/images/team-0.jpeg" alt="Our Team" className="img-fluid rounded" style={{height: "450px"}}/>
+                </div>
             </div>
         </div>
     );

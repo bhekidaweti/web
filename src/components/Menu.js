@@ -13,7 +13,7 @@ export default function Menu() {
           <li><button className='btn btn-warning'><Link to="/the-team">Our Team</Link></button></li>
           <li><button className='btn btn-warning'><Link to="/testimonials">Testimonials</Link></button></li>
           <li><button className='btn btn-warning'><Link to="/customized-graves">Customized Graves</Link></button></li>
-          <li><button className='btn btn-success'> <a href="/catalog.pdf" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-download"></i> Download Catalogue</a></button></li>
+          <li><button className='btn btn-success'> <Link to="/downloads" ><i class="fa-solid fa-download"></i> Downloads </Link></button></li>
         </ul>
       </div>
       

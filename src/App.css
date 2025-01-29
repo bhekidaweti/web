@@ -98,3 +98,15 @@ body {
   width: 300px;
   height: 150px;
 }
+
+.download-buttons {
+  background-color: goldenrod;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

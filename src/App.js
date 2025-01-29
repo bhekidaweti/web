@@ -12,6 +12,7 @@ import Testimonials from './components/Testimonials';
 import OtherServices from './components/OtherServices';
 import CustomizedGraves from './components/CustomizedGraves';
 import TheTeam from './components/TheTeam';
+import Downloads from './components/Downloads';
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
               <Route path='testimonials' element={< Testimonials />} /> 
               <Route path='other-services' element={ < OtherServices /> } />             
               <Route path='customized-graves' element={ < CustomizedGraves /> } /> 
-              <Route path='the-team' element={ < TheTeam /> } />    
+              <Route path='the-team' element={ < TheTeam /> } /> 
+              <Route path='downloads' element={ < Downloads /> } />
             </Routes>  
       <Footer />
     </div>
